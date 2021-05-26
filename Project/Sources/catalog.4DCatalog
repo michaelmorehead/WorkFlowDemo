@@ -7,7 +7,7 @@
 		<field name="Name" uuid="2F7328189AF94CB388B3262C1D0D87DE" type="10" limiting_length="255" never_null="true" id="2"/>
 		<field name="Address" uuid="7B609F78C23B4D30932C11914A80A650" type="10" limiting_length="255" never_null="true" id="3"/>
 		<primary_key field_name="ID" field_uuid="95D7A2AAF534424AA29355FF0F2960CF"/>
-		<table_extra>
+		<table_extra input_form="Input" output_form="Out">
 			<editor_table_info displayable_fields_count="6">
 				<color red="255" green="255" blue="255" alpha="0"/>
 				<coordinates left="40" top="40" width="120" height="167.33203125"/>
