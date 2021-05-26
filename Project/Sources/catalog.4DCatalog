@@ -2,4 +2,24 @@
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="WorkFlowDemo" uuid="85953B7637364625AEB3E44D2544D64A" collation_locale="en">
 	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Contacts" uuid="DECE02292E684F3D8060915AA67CC6B2" id="1">
+		<field name="ID" uuid="95D7A2AAF534424AA29355FF0F2960CF" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="2F7328189AF94CB388B3262C1D0D87DE" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Address" uuid="7B609F78C23B4D30932C11914A80A650" type="10" limiting_length="255" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="95D7A2AAF534424AA29355FF0F2960CF"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="45D832A1DCE4460189AD6F9B337DF5A4" type="7">
+		<field_ref uuid="95D7A2AAF534424AA29355FF0F2960CF" name="ID">
+			<table_ref uuid="DECE02292E684F3D8060915AA67CC6B2" name="Contacts"/>
+		</field_ref>
+	</index>
+	<base_extra>
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
 </base>
