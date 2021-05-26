@@ -1,0 +1,39 @@
+# 4D project architecture
+######################
+
+/Data/*
+/Logs/*
+/Project/DerivedData/*
+/Project/BuildSettings/*
+/Settings/*
+/userPreferences*/*
+/Builds/*
+/Components/Cache/*
+/Plugins/Cache/*
+/temporary\ files/*
+/Resources/Cache/*
+
+# Don't need the data file, indexes, symbols, or journal
+*symbols.txt
+*.journal
+
+# dont need the 4d info component folder_reports
+Folder_Reports
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+backupHistory.json
+*.4BK
+*.4BL
+
+/Project/Sources/lists.json
+/Project/Sources/settings.4DSettings
+
