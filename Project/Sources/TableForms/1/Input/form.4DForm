@@ -25,14 +25,6 @@
 		},
 		{
 			"objects": {
-				"Rectangle": {
-					"type": "rectangle",
-					"top": -40,
-					"left": -48,
-					"width": 563,
-					"height": 319,
-					"fill": "#c0c0c0"
-				},
 				"label_ID": {
 					"type": "text",
 					"text": "ID:",
@@ -106,23 +98,11 @@
 					],
 					"dataSource": "bOk",
 					"action": "cancel"
-				},
-				"Button2": {
-					"type": "button",
-					"text": "Test",
-					"top": 121,
-					"left": 223,
-					"width": 62,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button2.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 10,
+	"geometryStamp": 5,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
