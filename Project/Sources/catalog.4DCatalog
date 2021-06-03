@@ -19,7 +19,7 @@
 			<table_ref uuid="DECE02292E684F3D8060915AA67CC6B2" name="Contacts"/>
 		</field_ref>
 	</index>
-	<base_extra>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
 		<journal_file journal_file_enabled="true"/>
 	</base_extra>
 </base>
